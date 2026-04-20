@@ -7,6 +7,7 @@ RUN apk add --no-cache \
     php84-mbstring \
     php84-openssl \
     php84-pdo \
+    php84-intl \
     php84-pdo_mysql \
     php84-tokenizer \
     php84-xml \
@@ -20,6 +21,7 @@ RUN apk add --no-cache \
     php84-zip \
     php84-simplexml \
     php84-xmlwriter \
+    php84-xmlreader \
     php84-gd \
     php84-opcache \
     curl \
